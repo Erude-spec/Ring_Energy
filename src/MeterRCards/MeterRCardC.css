@@ -1,0 +1,21 @@
+.card {
+  width: 10.3125rem;
+  height: 10.375rem;
+  border: solid;
+  border-radius: 1.1875rem;
+  background: #fcbf49;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #003049;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.07969rem;
+}
+.electric-meter {
+  width: 3.625rem;
+  height: 3.625rem;
+}

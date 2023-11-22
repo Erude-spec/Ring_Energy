@@ -1,0 +1,13 @@
+.button2 {
+  border-radius: 0.75rem;
+  background: #003049;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.625rem 0rem;
+  border: none;
+  color: #fff;
+  font-family: PT Sans;
+  font-size: 1.125rem;
+  letter-spacing: 0.08438rem;
+}

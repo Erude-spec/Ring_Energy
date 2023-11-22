@@ -1,0 +1,22 @@
+.cards {
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 2.12rem;
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+  
+}
+.m-r-homepage{
+  padding-top: 5.5rem;
+  padding-left: 2.06rem;
+  padding-right: 2.06rem;
+  
+}
+body{
+  background: #eae2b7;
+}
+
+  
+

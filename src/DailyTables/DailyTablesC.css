@@ -1,0 +1,10 @@
+.daily-tables {
+  display: flex;
+  flex-direction: column;
+  /* gap: 1rem; */
+}
+.d-t-homepage{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

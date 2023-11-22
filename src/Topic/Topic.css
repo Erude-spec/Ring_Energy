@@ -1,0 +1,20 @@
+.topic {
+  height: 3.6875rem;
+  padding: 0.625rem 0.625rem 0.625rem 1.25rem;
+  border: solid;
+  display: flex;
+  align-items: center;
+  /* width: 84.4%; */
+  /* width: 84.65%; */
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1.1875rem;
+  background: #003049;
+  color: #fff;
+  font-family: PT Sans;
+  font-size: 1.375rem;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.10313rem;
+  border: none;
+}
