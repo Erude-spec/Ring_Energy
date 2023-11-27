@@ -1,11 +1,11 @@
 import React from 'react'
 import { AiOutlinePlus } from "react-icons/ai";
 import "../Button/ButtonC.css"
-const ButtonC = () => {
+const ButtonC = ({text}) => {
   return (
     <button className="btn">
       <AiOutlinePlus className="icon" />{" "}
-      <div className="button_text"> Add Meter reading</div>
+      <div className="button_text">{text}</div>
     </button>
   );
 }

@@ -12,22 +12,26 @@ import CardC from "../MeterRCards/MeterRCardC";
 import TitleC from "../Title/TitleC";
 import Navbar from "../NavBar/NavBarC";
 import Topic from "../Topic/Topic";
+import { NavLink } from "react-router-dom";
 // import "../HomePage/HomePage.css"
 
 const MeterReadings = () => {
   return (
     <div className="m-r-homepage">
-      <TitleC />
-      <Topic />
-      <div className="cards">
-        <CardC />
-        <CardC />
+      <TitleC text={"Meter Readings"} />
+      <Topic text={"Daily"} />
+      <div className="m-r-cards">
+        <NavLink to={"/daily_tables"}>
+          <CardC text={"Meter Reading"} icon={"meter"} />
+        </NavLink>
+        <CardC text={"View graphs"} icon={"graph"} />
       </div>
-      <Topic />
-      <div className="cards">
-        <CardC />
-        <CardC />
-        <CardC />
+      <Topic text={"Monthly"} />
+      <div className="m-r-cards">
+        <NavLink to={"/monthly_tables"}>
+          <CardC text={"Meter Reading"} icon={"meter"} />
+        </NavLink>
+        <CardC text={"View graphs"} icon={"graph"} />
       </div>
       <Navbar />
     </div>

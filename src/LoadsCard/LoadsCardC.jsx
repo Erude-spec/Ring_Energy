@@ -1,14 +1,21 @@
 import React from 'react'
-import { MdOutlineElectricMeter } from "react-icons/md";
+// import { MdOutlineElectricMeter } from "react-icons/md";
 import "../LoadsCard/LoadsCardC.css"
-const LoadsCardC = () => {
+import { NavLink } from 'react-router-dom';
+import { BsPlug } from "react-icons/bs";
+
+const LoadsCardC = ({facility,per_capita}) => {
   return (
-    <div className="loadsCard">
-      <MdOutlineElectricMeter className="load-meter" />
-      <div className="CVS-text"> CVS Labs</div>
-      <div className="m-reading">8.3 per capita</div>
-      <button className="addLoadBtn">AddLoad</button>
-    </div>
+    <NavLink to={"/loads_per_facility"}>
+      <div className="loadsCard">
+        <BsPlug className="load-meter" />
+        <div className="CVS-text"> {facility}</div>
+        <div className="digits">{per_capita && `${per_capita} per capita`}</div>
+        <NavLink to={"/add_loads"}>
+          <button className="addLoadBtn">AddLoad</button>
+        </NavLink>
+      </div>
+    </NavLink>
   );
 }
 

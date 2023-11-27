@@ -1,8 +1,4 @@
-/* body{
-    background-color: #EAE2B7;
-} */
-
-.facility-name {
+.m-reading {
   display: flex;
   flex-direction: column;
   gap: 1.18rem;
@@ -17,26 +13,19 @@
   font-size: 0.8125rem;
   font-weight: 400;
   letter-spacing: 0.06094rem;
-  /* margin-top: 6.25rem; */
+  margin-top: 6.25rem;
   background-color: #fff;
 }
-.add-f-homepage{
-    margin-top: 6.25rem;
-    display: flex;
-    flex-direction: column;
-    gap: 2.06rem;
-    margin-bottom: 6.25rem;
-
+body {
+  background-color: #eae2b7;
 }
 input {
   border: none;
-  border-bottom: 1px solid rgba(62, 62, 62, 0.39);
-
 }
 input:focus {
   outline: none;
 }
-/* .m-date {
+.m-date {
   display: flex;
   flex-direction: column;
   border-bottom: 1px solid rgba(62, 62, 62, 0.39);
@@ -54,13 +43,15 @@ input:focus {
   border-bottom: 1px solid rgba(62, 62, 62, 0.39);
   gap: 0.62rem;
 }
-.m-r-homepage {
-  display: flex;
+.meter-reading-homepage {
+  display:flex;
   flex-direction: column;
   gap: 1.88rem;
   margin-bottom: 10.25rem;
-  align-items: center;
-} */
+  /* align-items: center; */
+  width: 100%;
+  /* border: solid #000; */
+}
 /* .a-l-text {
   color: #000;
   font-family: PT Sans;

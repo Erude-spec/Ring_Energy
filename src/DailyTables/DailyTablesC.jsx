@@ -1,30 +1,35 @@
 import React from "react";
 
 import TableHeadingC from "../TableHeader/TableHeadingC";
-import OneReading from "../OneReading/OneReading";
 import "../DailyTables/DailyTablesC.css"
 import TableBottomC from "../TableBottom/TableBottomC";
 import Button2C from "../Button2/Button2C";
 import TitleC from "../Title/TitleC";
-// import TableBottomC from "../TableBottom/TableBottomC";
+import Navbar from "../NavBar/NavBarC";
+import DailyReadingTableC from "../DailyReadingTable/DailyReadingTableC";
+import { NavLink } from "react-router-dom";
+
+
 
 const DailyTablesC = () => {
   return (
     <div className="d-t-homepage">
-      <TitleC/>
+      <TitleC text={"Daily Meter Readings"}/>
       <div className="daily-tables">
         <TableHeadingC />
-        <OneReading />
-        <OneReading />
-        <OneReading />
-        <OneReading />
-        <OneReading />
-        <OneReading />
+        <DailyReadingTableC />
+        <DailyReadingTableC />
+        <DailyReadingTableC />
+        <DailyReadingTableC />
+        <DailyReadingTableC />
+        <DailyReadingTableC />
         <TableBottomC />
       </div>
-      <Button2C/>
-      <Button2C/>
-      {/* <TableBottomC/> */}
+      <Button2C />
+      <NavLink to={"/monthly_tables"}>
+        <Button2C />
+      </NavLink>
+      <Navbar />
     </div>
   );
 };

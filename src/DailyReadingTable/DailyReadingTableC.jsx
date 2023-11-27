@@ -1,6 +1,6 @@
 import React from 'react'
-import '../OneReading/OneReadingC.css'
-const OneReading = () => {
+import '../DailyReadingTable/DailyReadingTableC.css'
+const DailyReadingTableC = () => {
   return (
     <div className='one-reading'>
       <div className='date-time'>
@@ -12,4 +12,4 @@ const OneReading = () => {
   );
 }
 
-export default OneReading
+export default DailyReadingTableC;

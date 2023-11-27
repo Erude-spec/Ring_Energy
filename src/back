@@ -1,0 +1,56 @@
+{
+  /* <Route path="meter_readings" element={<MeterReadings />} />
+        <Route path="daily_readings" element={<DailyTablesC />} />
+        <Route path="monthly_readings" element={<MonthlyReadings />} />
+        <Route path="add_loads" element={<AddLoadsC />} />
+        <Route path="add_facility" element={<AddFacility />} />
+        <Route path="add_readings" element={<AddReading />} />
+        <Route path="loads_facility" element={<LoadsPerFacility />} /> */
+}
+{
+  /* <HomePage />
+        <Loads />
+        <MeterReadings />
+        <DailyTablesC />
+        <MonthlyReadings />
+        <AddLoadsC />
+        <AddFacility />
+        <AddReading />
+        <LoadsPerFacility />
+        <Topic />
+        <LoadsCardC />
+        <TablesC />
+        <OneReading />
+        <TableHeadingC />
+        <AddReadingsC />
+        <FacilityHeaderC />
+        <FacilityTable /> */
+}
+// <BrowserRouter>
+    //   <Routes />
+    //   <Route path="/" element={<div>yes</div>} />
+    //   <Route path="loads" element={<div>Testing</div>} />
+    //   <Routes />
+    // </BrowserRouter>
+  );
+
+  // import Loads from "./Loads/Loads";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
+// // import FacilityTable from "./FacilityTable/FacilityTableC";
+// import LoadsPerFacility from "./LoadsPerFacility/LoadsPerFacility";
+// // import FacilityHeaderC from "./FacilityHeader/FacilityHeaderC";
+// import AddFacility from "./AddFacility/AddFacility";
+// // import AddReadingsC from "./AddReadings/AddReadingsC";
+// import AddReading from "./AddLoads/AddLoadsC";
+// import MonthlyReadings from "./MonthlyReadings/MonthlyReadingsC";
+// // import TablesC from "./DailyTables/DailyTablesC";
+// import DailyTablesC from "./DailyTables/DailyTablesC";
+// // import DailyTablesC from "./DailyTables/DailyTablesC";
+// // import TableHeadingC from "./TableHeader/TableHeadingC";
+// // import OneReading from "./OneReading/OneReading";
+// // import TablesC from "./Tables/TablesC";
+// // import LoadsCardC from "./LoadsCard/LoadsCardC";
+// import MeterReadings from "./MeterReadings/MeterReadings";
+// // import Topic from "./Topic/Topic";
+// import AddLoadsC from "./AddLoads/AddLoadsC";
+// import DailyReadingTableC from "./DailyReadingTable/DailyReadingTableC";

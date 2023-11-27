@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Topic/Topic.css"
-const Topic = () => {
-  return <div className="topic">Daily</div>;
+const Topic = ({text}) => {
+  return <div className="topic">{text}</div>;
 }
 
 export default Topic

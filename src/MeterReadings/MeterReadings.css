@@ -1,22 +1,28 @@
-.cards {
+.m-r-cards {
   display: flex;
-  justify-content:space-around;
-  flex-wrap: wrap;
-  align-content: flex-start;
+  justify-content:space-between;
+  /* flex-wrap: wrap; */
+  
+  /* align-content:center; */
   gap: 2.12rem;
   margin-top: 2.25rem;
   margin-bottom: 2.25rem;
+  width: 84.65%;
   
 }
 .m-r-homepage{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
   padding-top: 5.5rem;
-  padding-left: 2.06rem;
-  padding-right: 2.06rem;
-  
+  padding-bottom: 5.19rem;
+
+  /* padding-left: 2.06rem; */
+  /* padding-right: 2.06rem;  */
 }
-body{
+/* body{
   background: #eae2b7;
-}
+} */
 
   
 

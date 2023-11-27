@@ -1,13 +1,19 @@
 import React from 'react'
-import "./CardC.css"
+import "./MeterRCardC.css"
+import { GoGraph } from "react-icons/go";
 import { MdOutlineElectricMeter } from "react-icons/md";
-const CardC = () => {
+<GoGraph />;
+const CardC = ({ icon, text }) => {
+  const iconsMapping = {
+    meter: <MdOutlineElectricMeter className="iconStyle" />,
+    graph: <GoGraph className="iconStyle" />,
+  };
   return (
-      <div className="card">
-        <MdOutlineElectricMeter className="electric-meter" />
-        Meter readings
-      </div>
+    <div className="card">
+      {icon && iconsMapping[icon]}
+      {text}
+    </div>
   );
-}
+};
 
 export default CardC

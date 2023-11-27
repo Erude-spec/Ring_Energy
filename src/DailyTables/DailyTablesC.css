@@ -1,10 +1,17 @@
 .daily-tables {
   display: flex;
   flex-direction: column;
+  margin-top: 5.19rem;
+  
   /* gap: 1rem; */
 }
 .d-t-homepage{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-bottom: 6.38rem;
+    
 }
+/* body{
+background-color: #EAE2B7;
+} */

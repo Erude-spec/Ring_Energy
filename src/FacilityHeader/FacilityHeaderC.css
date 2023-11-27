@@ -1,4 +1,4 @@
-.table_header {
+.facility_header {
   background: #d62828;
   width: 84.65%;
   margin-left: auto;
@@ -18,6 +18,7 @@
   font-weight: 700;
   letter-spacing: 0.07031rem;
   padding: 0.625rem;
+  
 }
 
 /* .table-header {

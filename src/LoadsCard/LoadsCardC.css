@@ -12,10 +12,10 @@
   padding-bottom: 0.81rem;
 }
 .addLoadBtn {
-  width: 73.33%;
+  /* width: 73.33%; */
   border: none;
   background: #d62828;
-  padding: 0.125rem 0rem;
+  padding: 0.125rem 1.3rem;
   border-radius: 1.25rem;
   color: #fff;
   letter-spacing: 0.05625rem;
@@ -29,10 +29,13 @@
 .CVS-text {
   color: #003049;
   letter-spacing: 0.07031rem;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 0.9375rem;
 }
-.m-reading {
+.digits {
   color: #003049;
   font-size: 0.75rem;
 }
+/* NavLink{
+  text-decoration: none;
+} */

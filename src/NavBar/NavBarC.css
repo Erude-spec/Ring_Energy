@@ -11,6 +11,7 @@
   /* border: solid; */
   height: 3.5rem;
 }
+
 .icon_navbar {
   /* border: solid; */
   height: 1.5rem;
@@ -29,10 +30,22 @@
   bottom: 0;
   left: 0;
   z-index: 1;
-  background-color: #EAE2B7;;
+  background-color: #eae2b7;
   justify-content: space-around;
   border-top: solid #fcbf49 0.0625rem;
   /* border: solid; */
   /* padding-top: 1rem; */
   /* align-items: center; */
 }
+.navLink {
+  text-decoration: none;
+  color: black;
+}
+.navLink.active {
+  border-top:solid 3px #F77F00;
+  stroke-width: 3px;
+stroke: #F77F00;
+}
+/* .active{
+  text-decoration: none;
+} */
